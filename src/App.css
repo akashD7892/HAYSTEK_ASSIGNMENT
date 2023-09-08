@@ -1,0 +1,90 @@
+#container {
+    width: 50%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+
+
+}
+
+#left-column {
+    flex: 1;
+    /* padding: 20px; */
+    background-color: rgb(90, 224, 90);
+    color: white;
+    font-size: xx-large;
+    font-weight: 900;
+    border-radius: 10px 0px 0px 10px;
+    /* Change the background color as desired */
+}
+
+#right-column {
+    flex: 8;
+    /* padding: 20px; */
+    background-color: #e0e0e0;
+    border-radius: 0px 10px 10px 0px;
+    /* Change the background color as desired */
+}
+
+.details {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 20px;
+
+}
+
+.name {
+    display: flex;
+    text-align: center;
+    background-color: lightblue;
+    border-radius: 0px 10px 0px 0px;
+    font-size: larger;
+
+
+}
+
+.location {
+    display: flex;
+    text-align: center;
+    background-color: white;
+    border-radius: 0px 0px 10px 0px;
+    font-size: larger;
+
+
+}
+
+.nme {
+    color: rgb(109, 100, 100);
+    font-weight: 500;
+}
+
+.header {
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    overflow: hidden;
+
+}
+
+.header p {
+    margin-left: 170px;
+    color: white;
+    font-weight: 900;
+    font-size: xx-large;
+    margin-bottom: 10px;
+
+}
+
+
+.header button {
+    background-color: rgb(242, 135, 96);
+    color: white;
+    margin-right: 170px;
+    height: fit-content;
+    margin-top: 30px;
+    border-radius: 20px;
+    border: hidden;
+    padding: 10px;
+
+}
